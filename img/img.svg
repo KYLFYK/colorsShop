@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="273px" height="253px" viewBox="0 0 273 253" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M55.8567232,15.871334 C99.6792879,15.871334 99.7544411,4.5587965 144.285721,0.454343638 C183.387794,-3.14969867 179.202902,15.871334 218.621756,15.871334 C243.488487,15.871334 245.632579,14.9860436 262.294114,36.099326 C278.95565,57.2126083 251.238395,71.3193418 251.238395,100.041294 C251.238395,131.865883 275.053411,137.807729 272.856889,169.452717 C271.270288,192.310664 265.290644,195.893509 265.290644,214.809409 C265.290644,233.725309 257.7001,252.995581 240.074652,252.995581 C190.83606,252.995581 193.03413,236.341598 144.285721,231.666044 C102.159496,227.625637 96.7117913,252.995581 55.8567232,252.995581 C34.7649187,252.995581 20.4269791,254.083266 20.4269791,222.130275 C20.4269791,183.286259 -4.5300582,166.90359 0.727706877,128.833491 C5.31957792,95.5849558 20.4269791,90.9289162 20.4269791,63.8842534 C20.4269791,36.8395906 27.900281,15.871334 55.8567232,15.871334 Z" id="path-1"></path>
+        <filter x="-4.6%" y="-4.9%" width="109.2%" height="109.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="5" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="10" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-909.000000, -2248.000000)">
+            <g id="Colors-block" transform="translate(251.000000, 1950.000000)">
+                <g id="Palette" transform="translate(6.000000, 150.000000)">
+                    <g id="Group-9" transform="translate(0.000000, 141.000000)">
+                        <g id="Group-7" transform="translate(652.000000, 7.000000)">
+                            <g id="Rectangle">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
